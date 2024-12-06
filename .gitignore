@@ -1,0 +1,35 @@
+### **.gitignore**
+```gitignore
+# Compiled output
+/target/
+
+# Build artifacts
+**/*.rs.bk
+
+# Cargo lock and debug environment files
+Cargo.lock
+/.idea/
+/.vscode/
+/*.log
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Dependencies
+/target/
+/node_modules/
+
+# Rust-specific
+*.rlib
+*.dSYM
+*.so
+*.dll
+*.dylib
+*.pdb
